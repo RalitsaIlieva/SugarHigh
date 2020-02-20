@@ -1,0 +1,5 @@
+# SugarHigh
+
+We read the input and in the variable "firstArray" we save the grams of the given candies. We make a copy of this "firstArray" called "copyArray" and we sort the candies in it in ascending order. In the variable of type List<int> "candies" we will keep the appropriate candies. In the variable "sum" we will keep the sum of the candies` grams. Firstly, the "sum" represents the grams of the first candy. If the "sum" is more than "sugarHigh", we have no appropriate candy and the "candies" will remain empty, so we will print “[]” on the Console. 
+If the "sum" is less than "sugarHigh", we add the first candy in the "candies" and we check other candies in the "copyArray". We check the "sum" after adding the grams of the given candy and we add that candy to the "candies", if the "sum" is still less than "sugarHigh".  If the "sum" becomes more than "sugarHigh", we stop the check. 
+If there are appropriate candies, we check what is the index of each of these candies in the "firstArray". Then we sort indexes and we print them on the Console.
